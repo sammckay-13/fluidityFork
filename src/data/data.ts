@@ -1,21 +1,21 @@
-import pic_1 from "./pictures/pic_1.jpg"
-import pic_2 from "./pictures/pic_2.jpg"
-import pic_3 from "./pictures/pic_3.jpg"
-import pic_4 from "./pictures/pic_4.jpg"
-import pic_5 from "./pictures/pic_5.jpg"
-import pic_6 from "./pictures/pic_6.jpg"
-import pic_7 from "./pictures/pic_7.jpg"
-import pic_8 from "./pictures/pic_8.png"
-import { queryToken } from "../Startpage/Searchbar/Searchbar"
+import pic_1 from "./pictures/pic_1.jpg";
+import pic_2 from "./pictures/pic_2.jpg";
+import pic_3 from "./pictures/pic_3.jpg";
+import pic_4 from "./pictures/pic_4.jpg";
+import pic_5 from "./pictures/pic_5.jpg";
+import pic_6 from "./pictures/pic_6.jpg";
+import pic_7 from "./pictures/pic_7.jpg";
+import pic_8 from "./pictures/pic_8.png";
+import { queryToken } from "../Startpage/Searchbar/Searchbar";
 
 export interface dataElem {
-  label: string
-  value: string
+  label: string;
+  value: string;
 }
 
 export interface linkGroup {
-  title: string
-  links: dataElem[]
+  title: string;
+  links: dataElem[];
 }
 
 /* eslint-disable */
@@ -50,7 +50,8 @@ export const links: linkGroup[] = [
       },
       {
         label: "Character Sheet",
-        value: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*wGS3YzhTpHWVY7ohjq1DkQ.png"
+        value:
+          "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*wGS3YzhTpHWVY7ohjq1DkQ.png",
       },
     ],
   },
@@ -71,13 +72,11 @@ export const links: linkGroup[] = [
       },
       {
         label: "React Bootstrap",
-        value:
-          "https://react-bootstrap.netlify.app/",
+        value: "https://react-bootstrap.netlify.app/",
       },
       {
         label: "Motion",
-        value:
-          "https://motion.dev/",
+        value: "https://motion.dev/",
       },
     ],
   },
@@ -98,7 +97,7 @@ export const links: linkGroup[] = [
       },
       {
         label: "Plex",
-        value: "https://app.plex.tv/desktop/?_gl=1*xcjo3*_gcl_au*OTM4NjEzNC4xNzM0Nzk4Nzg3*_ga*MTkwNjAwODk3My4xNzM0Nzk4Nzg4*_ga_G6FQWNSENB*MTczNjUzMjU0MC40LjAuMTczNjUzMjU0MC42MC4wLjA.#!/",
+        value: "https://app.plex.tv/desktop/#!/",
       },
     ],
   },
@@ -115,7 +114,8 @@ export const links: linkGroup[] = [
       },
       {
         label: "Interview Questions Google",
-        value: "https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions",
+        value:
+          "https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions",
       },
       {
         label: "Sithis Profile",
@@ -144,7 +144,7 @@ export const links: linkGroup[] = [
       },
     ],
   },
-]
+];
 
 export const images: dataElem[] = [
   { label: "pic_1", value: pic_1 },
@@ -155,7 +155,7 @@ export const images: dataElem[] = [
   { label: "pic_6", value: pic_6 },
   { label: "pic_7", value: pic_7 },
   { label: "pic_8", value: pic_8 },
-]
+];
 
 export const searchEngines: dataElem[] = [
   {
@@ -174,13 +174,13 @@ export const searchEngines: dataElem[] = [
     label: "Ecosia",
     value: `https://ecosia.org/search/?q=${queryToken}`,
   },
-]
+];
 
-export type FastForwards = Record<string, string>
+export type FastForwards = Record<string, string>;
 
 export interface Search {
-  engine: string
-  fastForward: FastForwards
+  engine: string;
+  fastForward: FastForwards;
 }
 
 export const searchSettings: Search = {
@@ -193,20 +193,20 @@ export const searchSettings: Search = {
     gitlab: "https://gitlab.com/",
     youtube: "https://youtube.com/",
   },
-}
+};
 
 export interface colorsType {
-  [key: string]: string
-  "--bg-color": string
-  "--default-color": string
-  "--accent-color": string
-  "--accent-color2": string
+  [key: string]: string;
+  "--bg-color": string;
+  "--default-color": string;
+  "--accent-color": string;
+  "--accent-color2": string;
 }
 
 export interface Theme {
-  name: string
-  colors: colorsType
-  image: string
+  name: string;
+  colors: colorsType;
+  image: string;
 }
 
 export const themes: Theme[] = [
@@ -347,4 +347,4 @@ export const themes: Theme[] = [
       "--accent-color2": "#F0F8FA",
     },
   },
-]
+];

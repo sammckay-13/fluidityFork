@@ -30,130 +30,117 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "DND",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "Inkarnate",
+        value: "https://inkarnate.com/maps",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        label: "Dungeon Master's Guide",
+        value: "https://anyflip.com/tqblu/sfae",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "Xanthar's Guide to Everything",
+        value: "https://online.anyflip.com/rmzy/oapq/mobile/index.html#p=1",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "Player's Handbook",
+        value: "https://online.anyflip.com/afgs/xkls/mobile/index.html#p=1",
+      },
+      {
+        label: "Character Sheet",
+        value: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*wGS3YzhTpHWVY7ohjq1DkQ.png"
       },
     ],
   },
   {
-    title: "3D Modelling",
+    title: "Coding",
     links: [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        label: "Vim's Lair",
+        value: "https://vimm.net/?p=vault",
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        label: "FitGirl Repacks",
+        value: "https://fitgirl-repacks.site/all-my-repacks-a-z/",
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        label: "DnD Buddy Palette",
+        value: "https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd",
       },
       {
-        label: "Blender tutorial",
+        label: "React Bootstrap",
         value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+          "https://react-bootstrap.netlify.app/",
       },
       {
-        label: "The other Blender tutorial",
+        label: "Motion",
         value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+          "https://motion.dev/",
       },
     ],
   },
   {
-    title: "Design",
+    title: "Server",
     links: [
       {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
+        label: "SABnzbd",
+        value: "http://10.0.0.174:8088/sabnzbd/",
       },
       {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
+        label: "ASUSTOR",
+        value: "https://10.0.0.174:8079/portal/",
       },
       {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
+        label: "NZB Geek",
+        value: "https://nzbgeek.info/dashboard.php?myaccount",
       },
       {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-      },
-      {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
+        label: "Plex",
+        value: "https://app.plex.tv/desktop/?_gl=1*xcjo3*_gcl_au*OTM4NjEzNC4xNzM0Nzk4Nzg3*_ga*MTkwNjAwODk3My4xNzM0Nzk4Nzg4*_ga_G6FQWNSENB*MTczNjUzMjU0MC40LjAuMTczNjUzMjU0MC42MC4wLjA.#!/",
       },
     ],
   },
   {
-    title: "Music",
+    title: "Coding Practice",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        label: "My Leetcode",
+        value: "https://leetcode.com/u/retrope13/",
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+        label: "CodeKata",
+        value: "http://codekata.com/",
       },
       {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
+        label: "Interview Questions Google",
+        value: "https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions",
       },
       {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+        label: "Sithis Profile",
+        value: "https://leetcode.com/u/Sithis/",
       },
       {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+        label: "Clean Code",
+        value: "https://refactoring.guru/refactoring/what-is-refactoring",
+      },
+      {
+        label: "Neetcode",
+        value: "https://neetcode.io/roadmap",
       },
     ],
   },
   {
-    title: "Sauce",
+    title: "Job Apps",
     links: [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        label: "LinkedIn",
+        value: "https://www.linkedin.com/in/sam-mckay13/",
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
-      },
-      {
-        label: "Text Flicker - CodeMyUI",
-        value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
-      },
-      {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
-      },
-      {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-      },
-      {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
+        label: "GitHub",
+        value: "https://github.com/Retrope13",
       },
     ],
   },

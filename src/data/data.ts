@@ -94,49 +94,6 @@ export const links: linkGroup[] = [
       },
     ],
   },
-  {
-    title: "Coding Practice",
-    links: [
-      {
-        label: "My Leetcode",
-        value: "https://leetcode.com/u/retrope13/",
-      },
-      {
-        label: "CodeKata",
-        value: "http://codekata.com/",
-      },
-      {
-        label: "Interview Questions Google",
-        value:
-          "https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions",
-      },
-      {
-        label: "Sithis Profile",
-        value: "https://leetcode.com/u/Sithis/",
-      },
-      {
-        label: "Clean Code",
-        value: "https://refactoring.guru/refactoring/what-is-refactoring",
-      },
-      {
-        label: "Neetcode",
-        value: "https://neetcode.io/roadmap",
-      },
-    ],
-  },
-  {
-    title: "Job Apps",
-    links: [
-      {
-        label: "LinkedIn",
-        value: "https://www.linkedin.com/in/sam-mckay13/",
-      },
-      {
-        label: "GitHub",
-        value: "https://github.com/Retrope13",
-      },
-    ],
-  },
 ];
 
 export const images: dataElem[] = [
